@@ -1,0 +1,8 @@
+[package]
+name = "cuda-narrative"
+version = "0.1.0"
+edition = "2021"
+description = "Narrative construction — agents build explanations from events, memory, and goals to explain their own behavior"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
