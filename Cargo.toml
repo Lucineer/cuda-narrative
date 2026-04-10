@@ -2,7 +2,12 @@
 name = "cuda-narrative"
 version = "0.1.0"
 edition = "2021"
-description = "Narrative construction — agents build explanations from events, memory, and goals to explain their own behavior"
+description = "Narrative construction — arc templates, theme extraction, similarity"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-narrative"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
